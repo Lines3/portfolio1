@@ -1,0 +1,106 @@
+html {
+    font-family: dosis, sans-serif;
+    background-color: rgb(255, 253, 238);
+}
+
+body {
+    margin: 2rem;
+}
+
+.nav-logo {
+    display: none;
+
+}
+
+body,
+.cards,
+.card_img {
+    max-width: 100%;
+}
+
+a.nav-logo,
+a.nav-logo-mobile {
+    font-family: dosis, sans-serif;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.nav-logo-mobile,
+.nav-logo {
+    text-decoration: none;
+}
+
+.card_img {
+    margin-top: 10px;
+}
+
+.exam1,
+.semester1,
+.cross_course {
+    background-color: rgb(245, 238, 182);
+    max-width: 100%;
+    padding: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.project_link {
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+}
+
+footer {
+    padding: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .menu-icon,
+    .nav-logo-mobile {
+        display: none;
+    }
+
+    .nav-logo {
+        display: block;
+    }
+
+    body {
+        margin: 1.5rem;
+        max-width: 100%;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0.5rem;
+        max-width: 100%;
+    }
+
+    .exam1,
+    .semester1,
+    .cross_course {
+        max-width: 100%;
+        padding: 1.3rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+        min-height: 5rem;
+    }
+}
